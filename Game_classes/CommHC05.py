@@ -45,7 +45,7 @@ class MyCommHC05:
 
         def passe_haut_1er_ordre(self, alt):
             #Constantes à étudier...
-            fc = 100  # Hz
+            fc = 4.5  # Hz
             tau = 1/(2*3.14*fc)
             Te = 2.7e-7 #1 nombre de 4 octects sur 115200 bauds
             
