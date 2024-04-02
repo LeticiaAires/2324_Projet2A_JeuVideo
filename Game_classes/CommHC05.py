@@ -36,7 +36,7 @@ class MyCommHC05:
 
         def lissage_exponentiel(self,alt):
             # Constantes à étudier...
-            N = 10
+            N = 40
             alpha = 2/(N+1)
 
             new_alt = alpha*alt+(1-alpha)*self.last_alt
